@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="register.css">
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="form-box">
+
+      <form action="">
+        <h2 class="header">Registration</h2>
+
+        <div class="full-name">
+          <input type="text" placeholder="First name" required>
+          <input type="text" placeholder="Last name" required>
+        </div>
+
+<div class="email-box">
+  <input type="text" placeholder="Email"  required>
+  <box-icon class="icon" type='solid' name='envelope'></box-icon>
+</div>
+
+<div class="pass-box">
+  <input type="password" placeholder="Password" required>
+  <box-icon class="icon" name='lock-alt' type='solid' ></box-icon>
+</div>
+
+<div class="phn-num">
+  <input type="text" placeholder="Contract no" required>
+  <box-icon class="call" type='solid' name='phone-call'></box-icon>
+</div>
+
+<div class="DOB">
+  <p>Date of birth: <input type="date" ></p>
+</div>
+
+<div class="gender">
+  <p>
+    Gender:
+    <label for="male">
+      <input type="radio" id="male" name="gender" value="male"> Male
+    </label>
+    <label for="female">
+      <input type="radio" id="female" name="gender" value="female"> Female
+    </label>
+    <label for="other">
+      <input type="radio" id="other" name="gender" value="other"> Other
+    </label>
+
+  </p>
+</div>
+
+
+<div class="blood-grp">
+  <p>
+    Blood Group: <select >
+      <option disable selected>Select an option</option>
+      <option value="1">A+</option>
+      <option value="2">A-</option>
+      <option value="3">B+</option>
+      <option value="4">B-</option>
+      <option value="5">AB+</option>
+      <option value="6">AB-</option>
+      <option value="7">O+</option>
+      <option value="8">O-</option>
+   
+    </select>
+  </p>
+</div>
+
+<button class="reg-btn">Register</button>
+        
+      </form>
+    </div>
+  </div>
+</body>
+</html>
